@@ -45,3 +45,10 @@ button {
     width: 200px;
     margin: 0 auto;
 }
+
+.demo{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 0 auto;
+    opacity: 0.7;
+}
