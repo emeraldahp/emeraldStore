@@ -1,3 +1,3 @@
 # emeraldStore
 
-<h2>https://emeraldahp.github.io/emeraldStore/</h2>
+<h2>https://emeraldahp.github.io/emeraldStore/index.html</h2>
