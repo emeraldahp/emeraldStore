@@ -1,3 +1,5 @@
+edit: backend-server not live at this moment
+
 ## XenonStack Technical Task Project
 
 ## Project Name - EmeraldStore Computer shop
