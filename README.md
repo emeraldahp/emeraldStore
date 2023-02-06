@@ -1,20 +1,16 @@
-edit: backend-server not live at this moment
+## EmeraldStore - Computer Shop
 
-## XenonStack Technical Task Project
-
-## Project Name - EmeraldStore Computer shop
+### Hosted Website Live link - https://emeraldstore-eahp.netlify.app/
+### Hosted Backend Api Link  - https://emeraldstore-server-production.up.railway.app/
 
 ### Front End repo link - https://github.com/emeraldahp/emeraldStore
 ### Back End repo link - https://github.com/emeraldahp/emeraldStore-server
 
-### Hosted Website Live link - https://emeraldahp.github.io/emeraldStore/index.html
-### Backend Api Link hosted on Heroku - https://emeraldstore-server.herokuapp.com/
+### Tech Stack
 
-### Tech Stack Using for the project 
-
-#### Front End Tech - HTML , CSS, JavaScript 
-#### Back End Tech stack - Node js , Express js Framework
-#### Database- MongoDb and online Database hosted On MongoDb Atlas
+#### Front-end Tech - HTML , CSS, JavaScript 
+#### Back-end Tech - Node js , Express js Framework
+#### Database - MongoDb (hosted On MongoDb Atlas)
 
 ### Website Pages
 1. Register Page
