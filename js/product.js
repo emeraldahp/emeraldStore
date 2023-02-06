@@ -1,6 +1,7 @@
+import Config from "./config";
 async function fetchProduct(event) {
     console.log(localStorage.getItem('token'));
-    const response = await fetch('https://emeraldstore-server.herokuapp.com/api/products', {
+    const response = await fetch(`${Config.API_URL}/api/products`, {
         headers: {
             Authorization: localStorage.getItem('token'),
         },

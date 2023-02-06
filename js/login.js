@@ -1,3 +1,5 @@
+import Config from "./config";
+
 const isValid = (data) => {
     const email = data.email;
     const password = data.password;
@@ -25,7 +27,7 @@ const login = async (loginDetails) => {
         redirect: 'follow',
     };
 
-    const response = await fetch(`https://emeraldstore-server.herokuapp.com/api/auth/login`, requestOptions);
+    const response = await fetch(`${Config.API_URL}/api/auth/login`, requestOptions);
 
     if (!response.ok) {
         const responseText = await response.text();

@@ -1,3 +1,5 @@
+import Config from "./config";
+
 const contact = async (data) => {
     const myHeaders = new Headers();
 
@@ -18,7 +20,7 @@ const contact = async (data) => {
         redirect: 'follow',
     };
 
-    const response = await fetch(`https://emeraldstore-server.herokuapp.com/api/contacts`, requestOptions);
+    const response = await fetch(`${Config.API_URL}/api/contacts`, requestOptions);
     if (!response.ok) {
         const responseText = await response.text();
         throw new Error(responseText || 'Some error occured');

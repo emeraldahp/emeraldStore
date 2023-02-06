@@ -1,3 +1,4 @@
+import Config from "./config";
 const register = async (registrationDetails) => {
     const myHeaders = new Headers();
     myHeaders.append('Content-Type', 'application/json');
@@ -11,7 +12,7 @@ const register = async (registrationDetails) => {
         redirect: 'follow',
     };
 
-    const response = await fetch(`https://emeraldstore-server.herokuapp.com/api/auth/register`, requestOptions);
+    const response = await fetch(`${Config.API_URL}/api/auth/register`, requestOptions);
     if (!response.ok) {
         const responseText = await response.text();
         throw new Error(responseText || 'Some error occured');

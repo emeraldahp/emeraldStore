@@ -16,8 +16,5 @@
     "bugs": {
         "url": "https://github.com/emeraldahp/emeraldStore/issues"
     },
-    "homepage": "https://github.com/emeraldahp/emeraldStore#readme",
-    "dependencies": {
-        "live-server": "^1.2.2"
-    }
+    "homepage": "https://github.com/emeraldahp/emeraldStore#readme"
 }
