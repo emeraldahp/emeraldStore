@@ -50,6 +50,7 @@ async function onLoginFormSubmit(event) {
     console.log(password);
     const loginDetails = { email, password };
     console.log(loginDetails);
+    if(isValid(loginDetails)==false) return; 
     try {
         const data = await login(loginDetails);
         alert(`${localStorage.getItem('name')}`);
@@ -60,6 +61,9 @@ async function onLoginFormSubmit(event) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+    localStorage.removeItem('token');
+    localStorage.removeItem('email');
+    localStorage.removeItem('name');
     console.log('Login');
     document.querySelector('#login-form').addEventListener('submit', onLoginFormSubmit);
 });
