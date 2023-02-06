@@ -1,4 +1,4 @@
-import Config from "./config";
+import Config from "./config.js";
 async function fetchProduct(event) {
     console.log(localStorage.getItem('token'));
     const response = await fetch(`${Config.API_URL}/api/products`, {

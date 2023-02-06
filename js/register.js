@@ -1,4 +1,4 @@
-import Config from "./config";
+import Config from "./config.js";
 const register = async (registrationDetails) => {
     const myHeaders = new Headers();
     myHeaders.append('Content-Type', 'application/json');

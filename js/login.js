@@ -1,4 +1,4 @@
-import Config from "./config";
+import Config from "./config.js";
 
 const isValid = (data) => {
     const email = data.email;
